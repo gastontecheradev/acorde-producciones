@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcordeProducciones</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="header-grid">
+                <!--<div>
+                    <img class="logo" onclick="irAInicio()" src="img/acorde.logo.jpg" alt="logo">
+                </div>-->                                           <!--titulo-->
+                <div class="titulo">
+                    <h1 onclick="irAInicio()">Acorde</h1>
+                    <h4>Producciones</h4>
+                </div>
+                        <nav class="navegacion">                                      
+                            <a href="index.html">Inicio</a>
+                            <a href="nosotros.html">Nosotros</a>
+                            <a href="trabajos.html">Trabajos</a>
+                            <a href="contacto.html">Contacto</a>
+                        </nav>                                             <!--menu-->          
+                <div></div>
+                    <button id="mostrar-menu" class="mostrar-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40" height="40" viewBox="0 0 20 25" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="4" y1="6" x2="50" y2="6" />
+                            <line x1="4" y1="12" x2="50" y2="12" />
+                            <line x1="4" y1="18" x2="50" y2="18" />
+                        </svg>
+                    </button>
+                    <div class="menu-nav">
+                    <button id="cerrar-menu" class="cerrar-menu" aria-label="Cerrar">&times;</button>
+                      <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="nosotros.html">NOSOTROS</a></li>
+                        <li><a href="trabajos.html">TRABAJOS</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                      </ul>
+                    </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <section class="beatmaking">                                    <!--<h2>Servicios</h2>-->   
+                <h3>Beatmaking</h3>
+                <div>
+                    <img src="img/Beatmaking.jpg" class="imagen">
+                </div>
+                <div>
+                    <img src="img/Beatmaking_muy_chico.jpg" class="imagen-3">
+                </div>
+                <p>Creación de beats, melodías, samples y loops personalizados que se ajustan a las necesidades específicas de cada proyecto. Trabajamos estrechamente con los artistas para asegurar que los beats se adapten a su estilo y visión creativa.</p>
+            </section>
+
+            <section class="grabacion">
+                <h3>Grabación y Mezcla</h3>
+
+                <div>
+                    <img src="img/Grabacion.jpg" class="imagen">
+                </div>
+                <div>
+                    <img src="img/Grabacion_muy_chico.jpg" class="imagen-3">
+                </div>
+                
+                <p>Estudio de grabación y equipamiento de alta calidad para lograr capturar el sonido que requiere cada proyecto. Nos aseguramos de que todos los elementos tengan su lugar y se destaquen en la mezcla final de manera homogénea, logrando que cada pista esté lo más limpia y precisa posible.</p>
+            </section>
+
+            <section class="masterizacion">
+                <h3>Masterización</h3>
+
+                <div>
+                    <img src="img/Mastering.jpg" class="imagen">
+                </div>
+                <div>
+                    <img src="img/Mastering_muy_chico.jpg" class="imagen-3">
+                </div>
+
+                <p>Masterización de la mezcla para su versión definitiva. En esta etapa le damos el toque final a la mezcla para asegurar el sonido profesional y uniforme en cualquier plataforma. Ajustamos cuidadosamente los niveles de audio, la dinámica y la claridad de la mezcla, optimizando la calidad del sonido para su lanzamiento al mercado.</p>
+            </section>
+        </section>  
+    </main>
+        </section> 
+            <!--<h2>Contacto</h2>-->
+        <div class="redes_sociales">
+
+            <a href="https://www.instagram.com/acorde.producciones/">
+                <img class="iconos" src="img/instagram.png" alt="youtube">
+            </a>
+
+            <a href="https://www.youtube.com/@acorde.producciones/featured">
+                <img class="iconos" src="img/youtube.png" alt="Youtube">
+            </a>
+
+            <a href="https://www.linkedin.com/in/acorde-producciones-85831624a/">  
+                <img class="iconos" src="img/linkedin.png" alt="linkedin">
+            </a>
+        </div>
+
+            <form class="formulario" action="https://formspree.io/f/xpzerplk"
+            method="POST">
+                <fieldset>
+
+                    <legend class="contactanos">Contáctanos llenando los campos.</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input type="text" placeholder="Tu Nombre" name="name">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input type="number" placeholder="Tu Telefono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input type="email" placeholder="Tu Correo" name="email">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea name="message" id="" cols="19" rows="5 "></textarea>
+                        </div>
+                    </div>   <!--contenedor-campos-->    
+
+                        <div class="campo">
+                            <button type="submit" value="Enviar">Enviar</button>
+                        </div>
+                    <div>
+                        
+                </fieldset>
+            </form>
+        </section> 
+    <footer class="copyright">
+         <h5>Todos los derechos reservados<h5>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

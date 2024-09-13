@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcordeProducciones</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="header-grid">
+                <!--<div>
+                    <img class="logo" onclick="irAInicio()" src="img/acorde.logo.jpg" alt="logo">
+                </div>-->                                           <!--titulo-->
+                <div class="titulo">
+                    <h1 onclick="irAInicio()">Acorde</h1>
+                    <h4>Producciones</h4>
+                </div>
+                        <nav class="navegacion">                                      
+                            <a href="index.html">Inicio</a>
+                            <a href="nosotros.html">Nosotros</a>
+                            <a href="trabajos.html">Trabajos</a>
+                            <a href="contacto.html">Contacto</a>
+                        </nav>                                             <!--menu-->          
+                <div></div>
+                    <button id="mostrar-menu" class="mostrar-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40" height="40" viewBox="0 0 20 25" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="4" y1="6" x2="50" y2="6" />
+                            <line x1="4" y1="12" x2="50" y2="12" />
+                            <line x1="4" y1="18" x2="50" y2="18" />
+                        </svg>
+                    </button>
+                    <div class="menu-nav">
+                    <button id="cerrar-menu" class="cerrar-menu" aria-label="Cerrar">&times;</button>
+                      <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="nosotros.html">NOSOTROS</a></li>
+                        <li><a href="trabajos.html">TRABAJOS</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                      </ul>
+                    </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <section class="beatmaking">                                    <!--<h2>Servicios</h2>-->   
+                <h3>Contacto</h3>
+                <p>Para ponerte en contacto con nosotros, puedes llenar el formulario que se encuentra en nuestra página de contacto o escribirnos directamente a nuestro correo electrónico:</p> 
+                <p>acorde.musica10@gmail.com.</p>
+                <p> Cuéntanos sobre tu proyecto musical, tus objetivos y tus necesidades. Estamos emocionados de trabajar contigo y ayudarte a alcanzar tus metas musicales.</p>
+            </section>
+    </main>
+    </section> 
+        <!--<h2>Contacto</h2>-->
+        <div class="redes_sociales">
+
+            <a href="https://www.instagram.com/acorde.producciones/">
+                <img class="iconos" src="img/instagram.png" alt="youtube">
+            </a>
+
+            <a href="https://www.youtube.com/@acorde.producciones/featured">
+                <img class="iconos" src="img/youtube.png" alt="Youtube">
+            </a>
+
+            <a href="https://www.linkedin.com/in/acorde-producciones-85831624a/">  
+                <img class="iconos" src="img/linkedin.png" alt="linkedin">
+            </a>
+        </div>
+
+        <form class="formulario" action="https://formspree.io/f/xpzerplk"
+        method="POST">
+            <fieldset>
+
+                <legend class="contactanos">Contáctanos llenando los campos.</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Tu Nombre" name="name">
+                    </div>
+
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input type="number" placeholder="Tu Telefono">
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input type="email" placeholder="Tu Correo" name="email">
+                    </div>
+
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea name="message" id="" cols="19" rows="5 "></textarea>
+                    </div>
+                </div>   <!--contenedor-campos-->    
+
+                    <div class="campo">
+                        <button type="submit" value="Enviar">Enviar</button>
+                    </div>
+                <div>
+                    
+            </fieldset>
+        </form>
+    </section> 
+<footer class="copyright">
+     <h5>Todos los derechos reservados<h5>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
